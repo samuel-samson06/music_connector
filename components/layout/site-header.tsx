@@ -11,7 +11,7 @@ export function SiteHeader() {
             Music Connector
           </span>
         </Link>
-        <nav className="flex items-center gap-1 sm:gap-3">
+        <nav className=" hidden sm:flex items-center gap-1 sm:gap-3">
           <Link
             href="/login"
             className="grid min-h-11 place-items-center px-3 text-sm font-medium text-muted"

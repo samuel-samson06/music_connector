@@ -116,14 +116,9 @@ function SongOfWeekPreview({ className = "" }: { className?: string }) {
 
 export function AppPreview() {
   return (
-    <div className="relative w-full max-w-[440px] lg:max-w-[460px]">
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-0 hidden overflow-hidden rounded-3xl lg:block"
-      >
-        <div className="absolute left-1/2 top-1/2 size-[520px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/10 blur-2xl" />
-      </div>
-      <div className="relative flex flex-col gap-4 lg:block lg:pt-6">
+    <div className="relative w-full max-w-[440px] lg:max-w-[460px] mx-auto">
+    
+      <div className="relative flex flex-col gap-4 lg:block lg:pt-6 ">
         <SongOfWeekPreview className="lg:absolute lg:-bottom-6 lg:-left-10 lg:z-10 lg:w-[320px]" />
         <FeedPreview className="lg:ml-auto lg:w-[370px]" />
       </div>

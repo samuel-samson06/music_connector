@@ -18,7 +18,7 @@ export default function Home() {
                 Post about the songs you love, pick one Song of the Week, and
                 keep your streak going.
               </p>
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+              <div className="mt-8 flex flex-col gap-5 md:gap-3 sm:flex-row sm:items-center">
                 <Link
                   href="/signup"
                   className="grid h-14 place-items-center rounded-full bg-accent px-8 text-base font-semibold text-accent-foreground"
@@ -27,7 +27,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href="/login"
-                  className="grid h-14 place-items-center rounded-full px-8 text-base font-medium text-muted sm:border sm:border-border sm:text-foreground"
+                  className="grid h-14 place-items-center rounded-full px-8 text-base font-medium text-accent border border-accent sm:text-foreground"
                 >
                   Log in
                 </Link>
